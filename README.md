@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/cocoapods/p/AFNetworking?color=red" />
     <a href="https://gitee.com/skylark2020/safekeeper/stargazers"><img src="https://gitee.com/skylark2020/safekeeper/badge/star.svg"></a>
     <a href="https://gitee.com/skylark2020/safekeeper/members"><img src="https://gitee.com/skylark2020/safekeeper/badge/fork.svg"></a>
-    <a target="_blank" href="https://search.maven.org/artifact/cn.safekeeper/safekeeper-plugin/0.0.2/jar">
+    <a target="_blank" href="https://search.maven.org/artifact/cn.safekeeper/safekeeper-plugin-springboot-starter/1.0.0/jar">
 		<img src="https://img.shields.io/maven-central/v/cn.safekeeper/safekeeper-plugin" />
 	</a>
 	<a target="_blank" href="https://www.apache.org/licenses/LICENSE-2.0.html">
@@ -76,24 +76,24 @@ safekeeper = safe + keeper，“safe”是专注于安全，认证，授权，ke
 ```xml
 <dependency>
     <groupId>cn.safekeeper</groupId>
-    <artifactId>safekeeper-plugin</artifactId>
-    <version>0.0.2</version>
+    <artifactId>safekeeper-plugin-springboot-starter</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
 ### 🍐Gradle
 ```
-compile 'cn.safekeeper:safekeeper-plugin:0.0.2'
+compile 'cn.safekeeper:safekeeper-plugin:1.0.0'
 ```
 
 ### 📥下载jar
 
-点击以下链接，下载`safekeeper-plugin-0.0.2.jar`即可：
+点击以下链接，下载`safekeeper-plugin-1.0.0.jar`即可：
 
-- [Maven中央库](https://repo1.maven.org/maven2/cn/safekeeper/safekeeper-plugin/0.0.1/safekeeper-plugin-0.0.2.jar)
+- [Maven中央库](https://repo1.maven.org/maven2/cn/safekeeper/safekeeper-plugin/0.0.1/safekeeper-plugin-1.0.0.jar)
 
 > 🔔️注意
-> safekeeper 0.0.2支持JDK78+。
+> safekeeper 1.0.0支持JDK78+。
 
 ### 🚽编译安装
 
