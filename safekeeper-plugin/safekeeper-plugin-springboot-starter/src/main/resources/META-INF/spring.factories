@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.safekeeper.plugin.configuration.SafeKeeperAutoConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+cn.safekeeper.plugin.console.ConsoleApplicationContextInitializer

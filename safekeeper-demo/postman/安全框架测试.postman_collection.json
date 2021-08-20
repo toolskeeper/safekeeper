@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "2c81d105-29e4-492d-8ee7-0eb763e75904",
+		"name": "安全框架测试",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "登录",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "loginType",
+						"value": "app",
+						"type": "text"
+					},
+					{
+						"key": "safeKeeper",
+						"value": "ec923286-78a1-448e-a51a-eb9c7c2149ff",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"1\",\"username\":\"admin\",\"password\":\"admin\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/login"
+			},
+			"response": []
+		},
+		{
+			"name": "SafeKeeper欢迎",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "loginType",
+						"value": "app",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "safekeeper",
+						"value": "316060c7-c2d0-420b-bf10-0763cad8e21a",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": "http://localhost:8080/sayHello"
+			},
+			"response": []
+		},
+		{
+			"name": "访问保护资源",
+			"protocolProfileBehavior": {
+				"disableCookies": true,
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "loginType",
+						"value": "app",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/safeKeeper"
+			},
+			"response": []
+		},
+		{
+			"name": "通过token访问保护资源",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "loginType",
+						"value": "app",
+						"type": "text"
+					},
+					{
+						"key": "safekeeper",
+						"value": "a900db60-be18-4cba-a963-cc0cf9402277",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/safeKeeper"
+			},
+			"response": []
+		}
+	]
+}

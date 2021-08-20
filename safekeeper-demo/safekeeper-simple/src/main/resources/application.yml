@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  safekeeper:
+    exclude-list:
+      - /sayHello
+    redis:
+      host: 127.0.0.1 #本地redis地址
+      port: 6379
+  application:
+    name: safekeeper-simple
