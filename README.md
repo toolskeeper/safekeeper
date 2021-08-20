@@ -12,8 +12,8 @@
 
 <p align="center">
     <img src="https://img.shields.io/cocoapods/p/AFNetworking?color=red" />
-    <a href="https://gitee.com/skylark2020/safekeeper/stargazers"><img src="https://gitee.com/skylark2020/safekeeper/badge/star.svg"></a>
-    <a href="https://gitee.com/skylark2020/safekeeper/members"><img src="https://gitee.com/skylark2020/safekeeper/badge/fork.svg"></a>
+    <a href="https://gitee.com/skylark2020/safekeeper/stargazers"><img src="https://gitee.com/toolskeeper/safekeeper/badge/star.svg"></a>
+    <a href="https://gitee.com/skylark2020/safekeeper/members"><img src="https://gitee.com/toolskeeper/safekeeper/badge/fork.svg"></a>
     <a target="_blank" href="https://search.maven.org/artifact/cn.safekeeper/safekeeper-plugin-springboot-starter/1.0.0/jar">
 		<img src="https://img.shields.io/maven-central/v/cn.safekeeper/safekeeper-plugin" />
 	</a>
